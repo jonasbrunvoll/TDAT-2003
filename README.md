@@ -36,6 +36,6 @@ Homepage
 Add new article
 ![Screenshot](screenshots/newspaper_screenshot_2.png)
 
-Edith article 
+Edit article 
 ![Screenshot](screenshots/newspaper_screenshot_3.png)
 
