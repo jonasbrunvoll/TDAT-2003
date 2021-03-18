@@ -30,7 +30,12 @@ And that's it! You can now use the website.
 
 <h2>Screenshots</h2>
 
-![Screenshot](screenshots/newspaper_screenshot_1.png)
-![Screenshot](screenshots/newspaper_screenshot_2.png)
-![Screenshot](screenshots/newspaper_screenshot_3.png)
+Homepage
 ![Screenshot](screenshots/newspaper_screenshot_4.png)
+
+Add new article
+![Screenshot](screenshots/newspaper_screenshot_2.png)
+
+Edith article 
+![Screenshot](screenshots/newspaper_screenshot_3.png)
+
