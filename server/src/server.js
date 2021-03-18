@@ -8,12 +8,13 @@ const ArticleDao = require("./dao/articleDao.js");
 const CategoryDao = require("./dao/categoryDao.js");
 
 
-let pool = mysql.createPool({ connectionLimit: 2,
-    host: "mysql.stud.iie.ntnu.no",
-    user: "jonasbl",
-    password: "Z8yNWDkH",
-    database: "jonasbl",
-    debug: false
+let pool = mysql.createPool({
+    host: "xxxxxxxxxxxx",
+    "user": "xxxxxxxxxxxx",
+    "password": "xxxxxxxxxxxx",
+    "database": "xxxxxxxxxxxx",
+    "multipleStatements": true
+
 });
 
 let articleDao = new ArticleDao(pool);

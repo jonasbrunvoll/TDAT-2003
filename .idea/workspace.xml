@@ -2,38 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef63a2e5-3faa-45d0-a9d4-8d7d2aacbbe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/classes/SelfMadeComponents.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/classes/addArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/addArticle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/classes/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/classes/edithArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/edithArticle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/classes/getAllArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/getAllArticles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/classes/getImportantArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/getImportantArticles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/classes/getOneArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/getOneArticle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/classes/orderArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/orderArticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/classes/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/classes/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/classes/widgets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/dao/dao.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/dao/dao.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,8 +39,13 @@
   </component>
   <component name="ProjectId" id="1SppLqSMiqNyxIX20DoirJegvYs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
@@ -70,6 +60,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,18 +78,6 @@
       <recent name="$PROJECT_DIR$/react-state" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
@@ -111,27 +90,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <option name="contentProportion" value="0.27611396" />
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cddf00b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cddf00b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2082bfb0" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -188,6 +147,7 @@
       <workItem from="1574342658629" duration="2672000" />
       <workItem from="1574413572208" duration="48000" />
       <workItem from="1574413789363" duration="6697000" />
+      <workItem from="1616105027866" duration="3904000" />
     </task>
     <task id="LOCAL−00001" summary="Min første commit">
       <created>1573728772988</created>
@@ -415,20 +375,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Min første commit" />
@@ -453,6 +412,32 @@
     <MESSAGE value="Adding flow to client server." />
     <MESSAGE value="Defualt in test database" />
     <option name="LAST_COMMIT_MESSAGE" value="Defualt in test database" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="809" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616105830987">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state x="809" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1616105830987" />
+    <state x="614" y="348" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616106178708">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state x="614" y="348" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1035@0.25.1792.1035" timestamp="1616106178708" />
+    <state width="1204" height="399" key="GridCell.Tab.0.bottom" timestamp="1616105971114">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state width="1204" height="399" key="GridCell.Tab.0.bottom/0.25.1792.1035@0.25.1792.1035" timestamp="1616105971114" />
+    <state width="1204" height="399" key="GridCell.Tab.0.center" timestamp="1616105971114">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state width="1204" height="399" key="GridCell.Tab.0.center/0.25.1792.1035@0.25.1792.1035" timestamp="1616105971114" />
+    <state width="1204" height="399" key="GridCell.Tab.0.left" timestamp="1616105971113">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state width="1204" height="399" key="GridCell.Tab.0.left/0.25.1792.1035@0.25.1792.1035" timestamp="1616105971113" />
+    <state width="1204" height="399" key="GridCell.Tab.0.right" timestamp="1616105971114">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state width="1204" height="399" key="GridCell.Tab.0.right/0.25.1792.1035@0.25.1792.1035" timestamp="1616105971114" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

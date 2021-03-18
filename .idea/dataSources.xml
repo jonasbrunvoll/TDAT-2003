@@ -15,5 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="g_tdat3001_35@mysql.stud.iie.ntnu.no" uuid="76335aae-18b8-4d8d-a2b0-2ca409991dbc">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysql.stud.iie.ntnu.no:3306/g_tdat3001_35</jdbc-url>
+    </data-source>
   </component>
 </project>

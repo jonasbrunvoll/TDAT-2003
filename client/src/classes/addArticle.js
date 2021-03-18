@@ -113,9 +113,12 @@ export class AddArticle extends Component {
             .catch((error: Error) => console.error(error.message));
     }
 
-    handleCategoryChange = event  => {
+    /*
+    handleCategoryChange = (event)  => {
         this.article.category = event.target.value;
     };
+    
+     */
 
     buttonClicked() {
         console.log('Category: '+this.article.category);

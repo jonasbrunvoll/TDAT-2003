@@ -18,7 +18,7 @@ export class Article {
         this.inngress = inngress;
         this.text = text;
         this.importancy = importancy;
-        this.category = category;
+        this.category = 1;
         this.picture = picture;
         this.time = time;
     }
@@ -28,20 +28,20 @@ export class Article {
 
 export class ArticleService {
 
-    getAllArticles(){
+    getAllArticles() : any{
         return axios.get<Article>('http://localhost:8080/article').then(response => response.data);
     }
 
-    getOneArticle(id : number){
+    getOneArticle(id : number) : any {
         return axios.get<Article>('http://localhost:8080/article/' + id).then(respons => respons.data[0]);
     }
 
-    getImportantArticles(id_imp : number){
+    getImportantArticles(id_imp : number) : any{
        return axios.get<Article>('http://localhost:8080/article/importancy/' + id_imp).then(result => result.data);
 
     }
 
-    addArticle(article : Article ){
+    addArticle(article : Article ) : any {
         return axios.post('http://localhost:8080/article', {
             title : article.title,
             inngress : article.inngress,
@@ -54,11 +54,11 @@ export class ArticleService {
             .then(result => result.data);
     }
 
-    orderArticlesAfterCategory( id_cat : number){
+    orderArticlesAfterCategory( id_cat : number) : any{
         return axios.get<Article>('http://localhost:8080/article/category/' + id_cat).then(result => result.data);
     }
 
-    updateArticle(article : Article){
+    updateArticle(article : Article) : any {
         return axios({
             method: "put",
             url : "http://localhost:8080/article",
@@ -74,11 +74,11 @@ export class ArticleService {
             .then(result => result.data);
     }
 
-    deleteArticle(id_article : number){
+    deleteArticle(id_article : number) : any {
         return axios.delete<Article>('http://localhost:8080/article/' + id_article).then(result => result.data);
     }
 }
-export let articleService = new ArticleService();
+export let articleService : ArticleService = new ArticleService();
 
 
 

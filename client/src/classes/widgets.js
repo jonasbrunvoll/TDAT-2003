@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom';
  */
 export class Alert extends Component {
   alerts: { id: number, text: React.Node, type: string }[] = [];
-  static nextId = 0;
+  static nextId : number = 0;
 
   render() {
     return (

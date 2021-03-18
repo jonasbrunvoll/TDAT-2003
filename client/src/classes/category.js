@@ -8,9 +8,9 @@ export class Category {
 }
 export class CategoryService {
 
-    getCategories(){
+    getCategories() : any{
         return axios.get<Category>('http://localhost:8080/category').then(result => result.data);
     }
 
 }
-export let categoryService = new CategoryService();
+export let categoryService : CategoryService = new CategoryService();
