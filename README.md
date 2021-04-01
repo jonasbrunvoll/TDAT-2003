@@ -5,9 +5,9 @@
 <h2>Quick start installation guide</h2>
 
 ```
-git clone https://gitlab.stud.idi.ntnu.no/williaj/harmoni-team-7.git
+git clone https://github.com/jonasbrunvoll/TDAT-2003.git
 
-cd harmoni-team-7/application/server
+cd miniprosjekt/server
  
 npm install
 ```
